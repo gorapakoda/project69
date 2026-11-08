@@ -3,7 +3,7 @@ import os
 import subprocess
 import glob
 
-RAM = "8G"
+RAM = "10G"
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 server_dir = os.path.join(BASE, "minecraft_server")

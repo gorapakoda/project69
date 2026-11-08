@@ -1,0 +1,20 @@
+{
+    "BUCKET_NAME": "Project69-Backup",
+    "ENDPOINT": "https://s3.us-east-005.backblazeb2.com",
+    "SERVER_FOLDER_PATH": "/workspaces/project69/minecraft_server/",
+    "WORLD_FOLDERS": [
+        "world",
+        "world_nether",
+        "world_the_end"
+    ],
+    "PLUGINS_FOLDER": "plugins",
+    "ADDITIONAL_FILES": [
+        "server.properties",
+        "config/",
+        "whitelist.json",
+        "version_history.json",
+        "spigot.yml",
+        "bukkit.yml"
+    ],
+    "MAX_BACKUPS_TO_KEEP": 3
+}
